@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XActs - Xavier Actors' Society</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="morphing-ball"></div>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#home" class="header-logo">XActs</a> 
+            <nav class="main-nav">
+                <ul id="main-navigation">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#productions">Productions</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- FIX: Added "Contact" link, pointing to the final section anchor -->
+                    <li><a href="#productions">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-nav-toggle" aria-controls="main-navigation" aria-expanded="false">
+                <span class="sr-only"> </span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div id="fullpage-wrapper"> 
+            <section class="hero-section section" data-anchor="home">
+                <div class="hero-container">
+                    <h1 class="hero-headline">WHERE STORIES COME ALIVE</h1>
+                    <p class="hero-subheadline">The official home of the Xavier Actors' Society. Discover our latest productions and join us for a season of unforgettable theatre.</p>
+                    <a href="#teaser" class="cta-button">See What's Next</a>
+                </div>
+            </section>
+
+            <section class="teaser-section section" data-anchor="teaser">
+                <div class="teaser-container">
+                    <h2 class="teaser-headline">Stay Tuned</h2>
+                    <p class="teaser-subheadline">January 2026</p>
+                </div>
+            </section>
+
+            <section class="about-snippet-section section" data-anchor="about">
+                <div class="about-snippet-container">
+                    <h2 class="section-title">Our Mission</h2>
+                    <p class="about-snippet-text">
+                        To nurture and showcase the potential of theatrical talent within the Xavier School Nuvali community, establishing a vibrant presence for the arts in Laguna.
+                    </p>
+                    <a href="about.html" class="cta-button-secondary">Learn More About Us</a>
+                </div>
+            </section>
+
+            <section class="past-productions-section section" data-anchor="productions">
+                <div class="past-productions-container">
+                    <h2 class="section-title">Past Productions</h2>
+                    <div class="gallery-grid">
+                        <a href="#" class="production-card"><img src="css/assets/SoL_rerun.jpg" alt="Poster for Stages of Love (rerun)"><div class="card-overlay"><h3 class="card-title">Stages of Love (rerun)</h3></div></a>
+                        <a href="#" class="production-card"><img src="css/assets/UU.jpg" alt="Poster for Unsaid/Unheard"><div class="card-overlay"><h3 class="card-title">Unsaid/Unheard</h3></div></a>
+                        <a href="#" class="production-card"><img src="css/assets/EE.jpg" alt="Poster for EXEMPLAR EXCELLENTIAE"><div class="card-overlay"><h3 class="card-title">EXEMPLAR EXCELLENTIAE</h3></div></a>
+                        <a href="#" class="production-card"><img src="css/assets/SKnA_rerun.jpg" alt="Poster for Sa Kaharian ng Araw (rerun)"><div class="card-overlay"><h3 class="card-title">Sa Kaharian ng Araw (rerun)</h3></div></a>
+                        <a href="#" class="production-card"><img src="css/assets/SKnA.jpg" alt="Poster for Sa Kaharian ng Araw"><div class="card-overlay"><h3 class="card-title">Sa Kaharian ng Araw</h3></div></a>
+                        <a href="#" class="production-card"><img src="css/assets/SoL.jpg" alt="Poster for Stages of Love"><div class="card-overlay"><h3 class="card-title">Stages of Love</h3></div></a>
+                    </div>
+                </div>
+                <footer class="main-footer">
+                    <div class="footer-container">
+                        <p class="footer-copyright">&copy; 2025 Xavier Actors' Society</p>
+                        <nav class="footer-nav">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#productions">Productions</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#productions">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                        <div class="footer-social">
+                            <a href="#" target="_blank" aria-label="Facebook">Facebook</a>
+                            <a href="#" target="_blank" aria-label="Instagram">Instagram</a>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
